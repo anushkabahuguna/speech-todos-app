@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/speech-todos-app/static/css/main.f70b9823.chunk.css",
+    "main.js": "/speech-todos-app/static/js/main.a57cec86.chunk.js",
+    "main.js.map": "/speech-todos-app/static/js/main.a57cec86.chunk.js.map",
+    "runtime-main.js": "/speech-todos-app/static/js/runtime-main.8c8ac0f2.js",
+    "runtime-main.js.map": "/speech-todos-app/static/js/runtime-main.8c8ac0f2.js.map",
+    "static/js/2.94a54b25.chunk.js": "/speech-todos-app/static/js/2.94a54b25.chunk.js",
+    "static/js/2.94a54b25.chunk.js.map": "/speech-todos-app/static/js/2.94a54b25.chunk.js.map",
+    "index.html": "/speech-todos-app/index.html",
+    "static/css/main.f70b9823.chunk.css.map": "/speech-todos-app/static/css/main.f70b9823.chunk.css.map",
+    "static/js/2.94a54b25.chunk.js.LICENSE.txt": "/speech-todos-app/static/js/2.94a54b25.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c8ac0f2.js",
+    "static/js/2.94a54b25.chunk.js",
+    "static/css/main.f70b9823.chunk.css",
+    "static/js/main.a57cec86.chunk.js"
+  ]
+}
