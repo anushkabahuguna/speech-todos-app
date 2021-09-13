@@ -1,0 +1,9 @@
+.TodoItem {
+    background-color: rgb(243, 171, 201);
+    transition: all 0.3s ease-in;
+}
+
+.TodoItem:hover {
+    background-color: rgb(240, 155, 190);
+    cursor: pointer;
+}
