@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
 
 function useLocalStorageState(key, defaultVal) {
-  //key for local storage
-  //make peice of state based of value in localStorage(or default)
-  //but if local storage has something with key initialise with that
   const [state, setState] = useState(() => {
     let val;
     try {
