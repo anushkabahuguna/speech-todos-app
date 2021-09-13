@@ -10,10 +10,8 @@ export const TodosContext = createContext();
 export const DispatchContext = createContext();
 
 export function TodosProvider(props) {
-  var initialTodos = [];
-  useEffect(() => {
-    initialTodos = JSON.parse(window.localStorage.getItem("todos") || "[]");
-  }, []);
+  var initialTodos = JSON.parse(window.localStorage.getItem("todos") || "[]");
+
 
   // call dispatch with the action and other parameters
   const [todos, dispatch] = useLocalStorageReducer(
@@ -21,6 +19,7 @@ export function TodosProvider(props) {
     initialTodos,
     todoReducer
   );
+  // console.log(todos)
   return (
     // value={{ todos, dispatch }}
     <TodosContext.Provider value={todos}>
