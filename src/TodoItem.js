@@ -3,7 +3,6 @@ import EditTodoForm from "./EditTodoForm";
 import {
   ListItem,
   ListItemText,
-  Checkbox,
   ListItemSecondaryAction,
   IconButton,
 } from "@material-ui/core";

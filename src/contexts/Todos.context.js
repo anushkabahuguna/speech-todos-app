@@ -10,7 +10,7 @@ export const TodosContext = createContext();
 export const DispatchContext = createContext();
 
 export function TodosProvider(props) {
-  var initialTodos = {};
+  var initialTodos = [];
   useEffect(() => {
     initialTodos = JSON.parse(window.localStorage.getItem("todos") || "[]");
   }, []);
