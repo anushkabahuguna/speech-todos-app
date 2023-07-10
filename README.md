@@ -1,5 +1,7 @@
 ## Speech Todos App
 
+<em>Built with React</em>
+
 - This app allows users to create and manage their daily tasks through voice commands.
 - Users can record or manually type out tasks.
 - Voice recognition is done using a react library,<b>react-speech-recognition<b>.
