@@ -1,6 +1,7 @@
 ## Speech Todos App
 
-<em>Built with React</em>
+<b>Built with</b> 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 - This app allows users to create and manage their daily tasks through voice commands.
 - Users can record or manually type out tasks.
